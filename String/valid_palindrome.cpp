@@ -1,3 +1,6 @@
+
+//QNO.125 VALID PALINDROME
+
 #include <bits/stdc++.h>
 using namespace std;
 
