@@ -3,7 +3,6 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-
 bool isPalindrome(string s) {
     int i = 0;
     int j = s.length() - 1;
@@ -14,7 +13,6 @@ bool isPalindrome(string s) {
         while (i < j && !isalnum(s[i])) {
             i++;
         }
-
         // now  from right side 
         while (i < j && !isalnum(s[j])) {
             j--;
