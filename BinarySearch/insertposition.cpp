@@ -1,6 +1,5 @@
  // QNO.34 SEARCH INSERT POSITION
 
-
  #include <bits/stdc++.h>
  using namespace std;
 
@@ -23,7 +22,6 @@
         // Target not found, left is the insertion point
         return left;
     }
-
     int main() {
         vector<int> nums;
         int n, target;
@@ -37,7 +35,6 @@
             cin >> element;
             nums.push_back(element);
         }
-    
         cout << "Enter the target value: ";
         cin >> target;
     
