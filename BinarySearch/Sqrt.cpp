@@ -1,5 +1,7 @@
 //QNO. 69 SQUARE ROOT
 
+// sqrt(x) is the greatest integer that is less than or equal to the square root of x.
+
 #include <bits/stdc++.h>
 class Solution {
 public:
