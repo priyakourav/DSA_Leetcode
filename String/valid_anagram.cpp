@@ -30,8 +30,10 @@
 
         Solution sol;
         if(sol.isAnagram(s, t)) {
+
             cout << "The strings are anagrams." << endl;
         } else {
+            
             cout << "The strings are not anagrams." << endl;
         }
 
