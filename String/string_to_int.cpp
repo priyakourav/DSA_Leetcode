@@ -1,14 +1,12 @@
-
 // LeetCode 8: String to Integer (atoi)
 // Pattern: String Parsing
 // Time Complexity: O(n)
 // Space Complexity: O(1)
+
 #include <iostream>
 #include <string>
 #include <climits>
 using namespace std;
-
-
 
 class Solution {
 public:
