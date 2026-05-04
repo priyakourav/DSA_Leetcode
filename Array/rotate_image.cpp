@@ -1,7 +1,6 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 class Solution {
@@ -15,7 +14,6 @@ public:
                 swap(matrix[i][j], matrix[j][i]);
             }
         }
-
         // Step 2: reverse each row
         for(int i = 0; i < n; i++){
             reverse(matrix[i].begin(), matrix[i].end());
@@ -44,11 +42,8 @@ int main() {
 
     cout << "Original Matrix:\n";
     printMatrix(matrix);
-
     sol.rotate(matrix);
-
     cout << "\nRotated Matrix:\n";
     printMatrix(matrix);
-
     return 0;
 }
