@@ -1,4 +1,6 @@
 //QNO.412 FIZZ BUZZ
+
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -20,13 +22,13 @@ vector<string> fizzBuzz(int n) {
     return result;
 }
 
+
+
 int main() {
     int n = 15; 
     vector<string> output = fizzBuzz(n);
-    
     for (const string& str : output) {
         cout << str << endl;
     }
-    
     return 0;
 }
